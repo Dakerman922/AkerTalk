@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   background-color: rgb(221, 213, 213);
+   
+}
+
+#up_bar{
+    height: 50px;
+    background-color: #333;
+    color: #d9dfeb;
+    
+}
+
+#search_box{
+padding:5px 30px;
+font-size: 15px;
+background: #404040;
+color:#fff;
+margin:0 20px;
+text-transform: capitalize;
+border-radius: 5px;
+}
+
+.main_pool{
+    width: 1200px;
+    margin: auto;
+    
+    min-height: 400px;
+}
+
+#image_div{
+width: 1200px;
+margin: auto;
+background-color: #333;
+text-align: center;
+
+
+}
+
+#profile_pic{
+    width: 150px;
+    margin-top: -200px;
+    border-radius: 50%;
+
+}
+
+.btn_href{
+    display: inline-block;
+    padding:10px 30px;
+    font-size: 20px;
+    background: #333;
+    color:#fff;
+    margin:0 5px;
+    text-transform: capitalize;
+ }
+
+.btn_href:hover{
+    background: crimson;
+ }
+
+ .btn_post:hover{
+    background: crimson;
+ }
+
+
+
+#text_posts{
+    width: 100%;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    height: 100px;
+    border: solid thin #aaa;
+    padding: 10px;
+    background-color: white;
+ }
+
+ .btn_post{
+    float: right;
+    padding:10px 30px;
+    font-size: 15px;
+    background: #333;
+    color:#fff;
+    margin:0 5px;
+    text-transform: capitalize;
+    border-radius: 10%;
+ }
+
+ #all_post_div{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+ }
+
+
+
+ #post{
+   padding: 4px;
+   font-size: 13px;
+   display: flex;
+   background-color: white;
+ }
+
+ #image_for_post{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 4px;
+ }
